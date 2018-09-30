@@ -10,6 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            String Number = "";
+
+            Console.WriteLine("Insert the first number.: ");
+            Number = Console.ReadLine();
+            Console.WriteLine($"The number you entered was.: {Number}");
+            Console.ReadKey();
+
+
+
+
         }
     }
 }
